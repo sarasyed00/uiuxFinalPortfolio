@@ -1,0 +1,451 @@
+/* Put your style information here! */
+h1 {
+    text-align: center;
+
+    font-size: 3em;
+    margin: 0px;
+    /* background-color: #FDE37A */
+}
+h2 {
+    font-size: .7em;
+    text-indent: 30px;
+}
+h3 {
+    font-size: 1.2em;
+
+}
+
+h4 {
+    font-size: 1em;
+    text-indent: 30px;
+}
+.material-icons.md-16 { font-size: 16px; }
+.material-icons.md-12 { font-size: 12px; }
+
+ol {
+    font-size: 1em;
+}
+
+body {
+  background-color: #;
+  margin: 50px;
+  /* text-align: center */
+}
+li{
+    /* font-family: Abril Fatface; */
+    font-size: 1em;
+}
+
+.collapsible1 {
+    /* margin:20px; */
+    /* margin-right: 100px; */
+  background-color: #a2a4a6;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible2 {
+    /* margin:20px; */
+    /* margin-right: 100px; */
+  background-color: #b4b6b8;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible3 {
+    /* margin:20px; */
+    /* margin-right: 100px; */
+  background-color: #a2a4a6;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible4 {
+    /* margin:20px; */
+    /* margin-right: 100px; */
+  background-color: #b4b6b8;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.conclusiongrid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 0.3fr 0.3fr;
+    grid-template-rows: 1fr;
+    margin-top: 20px;
+}
+
+#projects{
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #f1f1f1;
+}
+
+#about{
+    /* background-color: white; */
+}
+
+#contact{
+    background-color: #dbdbdb;
+}
+
+
+
+.active, .collapsible1:hover {
+  background-color: #555;
+}
+
+.active, .collapsible2:hover {
+  background-color: #555;
+}
+
+.active, .collapsible3:hover {
+  background-color: #555;
+}
+
+.active, .collapsible4:hover {
+  background-color: #555;
+}
+
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+}
+
+.content1 {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f0fcc0;
+}
+
+.content4{
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color:#e6f2fa;
+}
+/*
+.projects-flex-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+} */
+
+.sideByside-flexbox{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.sideByside-flexbox-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+
+.center-all{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.flex-container2 {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    /* padding: 0px;  ---> this is updown padding*/
+}
+
+.flex-container-slides {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    text-align: center;
+    /* padding: 0px;  ---> this is updown padding*/
+}
+
+
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap; /*this is default*/
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 0px;  ---> this is updown padding*/
+}
+
+.flex-container-wrap {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /*this is default*/
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    text-align: left;
+    /* padding: 0px;  ---> this is updown padding*/
+}
+
+.flex-iterative-sketches{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.flex-column{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.flex-item2{
+    /* margin: auto; */
+    /* width: 50%; */
+    border: 5px solid #C9E265;
+    padding: 15px;
+}
+
+h6 {
+    font-size: 1.25em;
+    margin-bottom: 0;
+    margin:10px;
+}
+
+
+.flex-container-story {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+@media (max-width: 800px) {
+    .flex-container-story {
+        flex-direction: column;
+    }
+}
+.flex-container2-story {
+    position: relative;
+    display: flex;
+    flex-direction: row ;
+
+}
+
+.flex-container-contact {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap; /*this is default*/
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+
+}
+@media (max-width: 900px) {
+    .flex-container2-story {
+        flex-direction: column;
+    }
+}
+
+.gif-box{
+    width:60%
+}
+
+@media (max-width:900px) {
+    .gif-box{
+        width:100%
+    }
+}
+
+.left-align {
+    text-align: left;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.whitebox {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 15px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+.sketch {
+    width: 48%;
+    margin-bottom: 0px;
+}
+
+.sketchdiv {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 0px;
+}
